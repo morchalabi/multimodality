@@ -1,0 +1,12 @@
+[gene-expression]
+reference,/data/refdata-gex-GRCh38-2020-A
+expect-cells,1000
+include-introns,true
+
+[vdj]
+reference,/data/refdata-cellranger-vdj-GRCh38-alts-ensembl-5.0.0
+
+[libraries]
+fastq_id,fastqs,lanes,feature_types,subsample_rate
+CPOI-PAL_GEX,/data/fasqs/GEX,4,gene expression,
+CPOI-PAL_TCR,/data/fasqs/TCR,4,vdj-t,
